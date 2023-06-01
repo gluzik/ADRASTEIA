@@ -1,0 +1,148 @@
+.title {
+    margin: 0 0 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85%;
+    letter-spacing: -0.04em;
+    color: #142251;
+}
+
+.subtitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #989EB1;
+}
+
+.link {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #213887;
+}
+
+.brand {
+    margin: 0 0 50px;
+
+    &__title {
+        color: #989EB1;
+    }
+
+    &__subtitle {
+        width: 199px;
+        margin-bottom: 18.63px;
+
+    }
+
+    &__images {
+        background: url(../img/brand-back.png) 0px -50px no-repeat;
+        margin-bottom: 31px;
+
+        & img {
+            background-size: 100%;
+        }
+    }
+
+    &__button {
+        padding: 19px 17px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        border: none;
+        background: rgba(33, 56, 135, 0.06);
+        border-radius: 12px;
+    }
+
+    &__link {
+        margin: auto 0;
+    }
+
+}
+
+.who {
+    margin: 0 0 50px;
+
+    &__subtitle {
+        width: 220px;
+        margin: 0 0 30px;
+    }
+
+    &__item {
+        position: relative;
+        width: 335px;
+        height: 150px;
+        background: #F3F6F9;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        &-subtitle {
+            padding: 20px;
+            width: 130px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 120%;
+            letter-spacing: -0.02em;
+            color: #142251;
+
+        }
+    }
+
+    &__header {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__note {
+        width: 67.05px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin: auto 0;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #142251;
+    }
+
+    &__edit {
+        width: 53px;
+        display: flex;
+        justify-content: space-between;
+
+        & img {
+            margin: auto 0;
+        }
+    }
+
+    &__line {
+        margin: 0;
+        height: 0px;
+        opacity: 0.1;
+        width: 100%;
+        border: 0.5px solid #142251;
+
+    }
+
+    &__images {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+}

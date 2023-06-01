@@ -1,0 +1,17 @@
+.header {
+    margin: 0 0 20px;
+
+    &__top {
+        padding: 19px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__line {
+        margin: 0;
+        color: #989EB1;
+        opacity: 0.3;
+        height: 0px;
+    }
+}
